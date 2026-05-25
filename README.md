@@ -7,7 +7,7 @@ A lightweight, production-ready microservice built with FastAPI that classifies 
 ## Project Architecture
 
 ```text
-/sentiment-service
+/sentiment-service-fastapi
 │
 ├── train.ipynb            # Jupyter Notebook with 5-fold Stratified Cross-Validation
 ├── main.py                # FastAPI server routing logic
@@ -26,7 +26,7 @@ A lightweight, production-ready microservice built with FastAPI that classifies 
 2. Clone or navigate to the project directory:
 
    ```bash
-   cd sentiment-service
+   cd sentiment-service-fastapi
    ```
 
 3. Create a virtual environment:
@@ -43,7 +43,7 @@ A lightweight, production-ready microservice built with FastAPI that classifies 
 5. Install the pinned dependencies:
 
    ```bash
-   pip install --upgrade pip
+   python -m pip install --upgrade pip
    pip install -r requirements.txt
    ```
 
